@@ -17,7 +17,7 @@ export const NavLogo = styled(Link)`
   text-decoration: none;
   cursor: pointer;
   transition-property: font-size;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
   &:hover {
     font-size:1.6rem;
     font-size-adjust: 20px
@@ -33,10 +33,10 @@ padding: 0 1rem;
 height: 100%;
 cursor: pointer;
 transition-property: font-size;
-transition-duration: 0.5s;
+transition-duration: 0.3s;
 &:hover {
-  color: grey;
-  font-size:18px;
+  color: #A52A2A;;
+  font-size:17px;
   font-size-adjust: 20px
   transition: all 500ms ease-in-out
 }
@@ -91,6 +91,6 @@ export const NavBtnLink = styled(Link)`
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
-    color: #808080;
+    color: #A52A2A;
   }
 `;
