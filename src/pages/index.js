@@ -1,7 +1,9 @@
+import Card from '../components/Card';
+
 const Home = () => {
   return (
     <div>
-    <h1>Welcome to our website!</h1>
+    <Card />
     </div>
   );
 };

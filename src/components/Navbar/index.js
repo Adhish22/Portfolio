@@ -43,9 +43,9 @@ const Navbar = () => {
                 >
                     Projects
                 </NavLink>
-                <NavBtn>
-                    <NavBtnLink to="/resume.js">Resume</NavBtnLink>
-                </NavBtn>
+                <a href="https://drive.google.com/file/d/1mxaF8u6PbXXc-Z52iNHZk0zawsD-8f_9/view?usp=sharing" download="Adhish Sharma - Resume" target="_blank" class="resumeLink">
+                    Resume
+                </a>
             </NavMenu>
            </Nav>
         </>
